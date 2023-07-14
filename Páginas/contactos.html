@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link
+      rel="shortcut icon"
+      href="../Multimedia/img/logo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="barra_navegacion">
+          <img class="logo" src="/Multimedia/img/logo.png" alt="logo">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./accesorios.html">Accesorios</a></li>
+            <li><a href="./contactos.html">Contactos</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo_pag">Contactos</h1>
+      <form class="formulario">
+       <div class=" dato dato_NyA">
+        <label for="name"> Nombre y Apellido: </label>
+        <input
+          type="text"
+          name="nombre_y_apellido"
+          id="name"
+          required
+        />
+       </div>
+        <div class="dato dato_email"> 
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+        </div>
+        <div class="dato dato_tel">
+          <label for="tel"> Tel:</label>
+          <input
+            type="tel"
+            name="telefono"
+            id="tel"
+          />
+        </div>
+        <div class="dato_terminos">
+          <input
+          type="checkbox"
+          name="terminos"
+          id="terminos"
+          value="acepto"
+          required
+        />
+        <label for="terminos">Acepta terminos y condiciones</label>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>Copyright Coderhouse Desarrollo Web 2023</p>
+      <a href="https://www.instagram.com/detalles_mym.21/" target="_blank"
+        >Instagram</a>
+    </footer>
+  </body>
+</html>
