@@ -1,0 +1,28 @@
+.barra_navegacion {
+    background-color: $bg-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    .logo {
+        display: flex;
+        align-items: center;
+        height: 70px;
+    }
+    ul {
+        margin: 0px 15px;
+        list-style: none;
+        display: flex;
+        justify-content: end;
+    }
+    a  {
+        display: block;
+        padding: 10px 17px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+        justify-content:end;
+    }
+}
